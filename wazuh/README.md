@@ -1,57 +1,32 @@
-# Wazuh Lab
+# Wazuh
 
 ## Objetivo
 
-Implementar um ambiente de monitoramento e detecção de eventos de segurança utilizando o Wazuh SIEM, simulando um cenário corporativo com endpoints Windows, Active Directory e geração de alertas.
-
-## Competências Praticadas
-
-* Instalação e configuração do Wazuh
-* Coleta e análise de logs
-* Monitoramento de endpoints
-* Gestão de agentes
-* Detecção de eventos de segurança
-* Monitoramento de Active Directory
-* Resposta inicial a incidentes
-* Investigação de alertas
-
-## Ferramentas Utilizadas
-
-* Wazuh
-* Ubuntu Server
-* Windows 10
-* Windows Server
-* Active Directory
-* Sysmon
-* SSH
-* VMware
-
-## Aprendizados
-
-* Funcionamento de uma plataforma SIEM
-* Integração de agentes Windows e Linux
-* Coleta centralizada de logs
-* Identificação de atividades suspeitas
-* Investigação de eventos de segurança
-* Monitoramento de autenticação e privilégios
-* Conceitos de SOC e Blue Team
-
-## Casos de Uso
-
-* Detecção de tentativas de login inválidas
-* Monitoramento de criação de usuários
-* Alteração de grupos privilegiados
-* Monitoramento de integridade de arquivos
-* Coleta de eventos do Windows
-* Análise de alertas de segurança
+Projeto prático de implantação e utilização do Wazuh SIEM para monitoramento centralizado de eventos de segurança em ambiente de laboratório.
 
 ## Ambiente
 
-* Ubuntu Server (Wazuh Manager)
-* Windows 10 (Endpoint)
-* Windows Server (Active Directory)
-* Kali Linux (Simulação de ataques)
+* Ubuntu Server 24.04 LTS
+* Windows 10
+* Active Directory
+* Kali Linux
+* VMware Workstation
 
-## Plataforma
+## Documentação
 
-Laboratório próprio desenvolvido para estudos de SIEM, monitoramento e resposta a incidentes.
+* Instalação do Wazuh
+* Troubleshooting da implantação
+* Integração de agentes Windows
+* Monitoramento com Sysmon
+* Monitoramento de Active Directory
+* Casos de uso e detecções
+
+## Competências Desenvolvidas
+
+* Administração Linux
+* SIEM
+* Monitoramento de Eventos
+* Active Directory
+* Endpoint Security
+* Threat Detection
+* Incident Response
