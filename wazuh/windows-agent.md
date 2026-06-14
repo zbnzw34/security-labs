@@ -27,3 +27,23 @@ Responsável pelo armazenamento dos eventos processados.
 ### Wazuh Dashboard
 
 Interface utilizada para visualização e investigação dos eventos.
+
+## Arquitetura
+
+```text
+Windows 10
+    ↓
+Wazuh Agent
+    ↓
+Wazuh Manager
+    ↓
+Filebeat
+    ↓
+Wazuh Indexer
+    ↓
+Wazuh Dashboard
+```
+
+O agente é responsável pela coleta de eventos no endpoint Windows.
+
+Os eventos são enviados ao Wazuh Manager, processados por regras de correlação e armazenados no Wazuh Indexer para visualização através do Dashboard.
